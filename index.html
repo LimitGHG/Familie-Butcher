@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Familie Butcher — Clan Bewerbung</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0a0a0c;
+      --panel:#0f0f12;
+      --muted:#9a98a0;
+      --pink:#ff4da6;
+      --glass: rgba(255,255,255,0.03);
+      --radius:14px;
+    }
+    /* Reset */
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%}
+    body{
+      font-family: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg,var(--bg),#070709);
+      color:#eee;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      padding-bottom:60px;
+    }
+
+    a{color:var(--pink); text-decoration:none}
+    .wrap{max-width:1100px;margin:28px auto;padding:24px}
+
+    header{
+      display:flex;align-items:center;justify-content:space-between;
+      gap:16px;
+      padding:12px 18px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));
+      border-radius:12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+      backdrop-filter: blur(6px);
+    }
+    .brand {font-weight:700;color:var(--pink);font-size:1.1rem}
+    nav {display:flex;gap:14px;align-items:center}
+    nav a{font-weight:600;color:var(--pink);opacity:0.95}
+
+    /* Hero */
+    .hero{
+      margin-top:18px;
+      border-radius:16px;
+      overflow:hidden;
+      position:relative;
+      min-height:320px;
+      display:flex;align-items:center;
+      background-color:#020203;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.7);
+    }
+    .hero .bg{
+      position:absolute;inset:0;background-size:cover;background-position:center;filter:brightness(0.3) contrast(1.05);
+    }
+    .hero .overlay{position:absolute;inset:0;background:linear-gradient(180deg, rgba(10,4,10,0.3), rgba(3,3,6,0.6));}
+    .hero .content{
+      position:relative;z-index:2;padding:40px;max-width:980px;margin:0 auto;text-align:center;
+    }
+    .hero h1{color:var(--pink);font-size:2.4rem;letter-spacing:0.6px;margin-bottom:6px}
+    .hero p.lead{color:#f3d2e8;margin-bottom:12px;font-weight:500}
+
+    /* Sections */
+    section.block{
+      margin-top:22px;
+      padding:20px;
+      border-radius:12px;
+      background:linear-gradient(180deg,var(--panel), #0b0b0d);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+      overflow:hidden;
+    }
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+    @media (max-width:860px){ .two-col{grid-template-columns:1fr} }
+
+    h2{color:var(--pink);margin-bottom:8px;font-size:1.25rem}
+    p{color: #dcd7df}
+    ul{color:#d6cfe0;margin-left:18px}
+
+    /* Image gallery */
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+    @media (max-width:900px){ .gallery{grid-template-columns:repeat(2,1fr)} }
+    @media (max-width:520px){ .gallery{grid-template-columns:1fr} }
+    .gallery img{width:100%;height:160px;object-fit:cover;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
+
+    /* small card */
+    .card{padding:12px;border-radius:12px;background:var(--glass);border:1px solid rgba(255,255,255,0.02)}
+    .muted{color:var(--muted);font-size:0.9rem}
+
+    footer{
+      margin-top:28px;text-align:center;color:var(--muted);font-size:0.9rem;
+      opacity:0.95;
+    }
+
+    /* simple anchor scroll */
+    .toc{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+    .toc a{background:rgba(255,255,255,0.02);padding:6px 10px;border-radius:999px;font-size:0.9rem}
+
+  </style>
+</head>
+<body>
+
+  <div class="wrap">
+    <header>
+      <div class="brand">Familie Butcher</div>
+      <nav class="toc">
+        <a href="#geschichte">Geschichte</a>
+        <a href="#ziele">Ziele</a>
+        <a href="#kleidung">Kleidung</a>
+        <a href="#leaders">Leaderschaft</a>
+        <a href="#rangsystem">Rangsystem</a>
+        <a href="#infos">Weitere Infos</a>
+      </nav>
+    </header>
+
+    <!-- HERO (uses your hero image from the uploaded file) -->
+    <section class="hero" aria-label="Hero">
+      <div class="bg" style="background-image:url('https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000002-b77dbb77dd/Bild_2025-03-14_131033092.png?ph=630aad457d');"></div>
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>Familie Butcher — Clan Bewerbung</h1>
+        <p class="lead">Die Familie "Butcher" ist zurück! Gegründet 06.05.2023 (vormals "Black Haze"). Wir sind wieder da — stärker und aktiver.</p>
+      </div>
+    </section>
+
+    <!-- Geschichte -->
+    <section class="block" id="geschichte">
+      <h2>Geschichte</h2>
+      <div class="two-col">
+        <div>
+          <p><strong>Die Familie "Butcher" ist zurück!</strong> Gegründet 06.05.2023 mit dem Namen "Black Haze". Bis heute hat sich die Familie gehalten — auch durch Höhen und Tiefen. Wir sind wieder da und aktiv.</p>
+        </div>
+        <div class="card">
+          <img alt="Butcher Hauptbild" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000004-96c5996c5b/Bild_2025-03-14_132345393.png?ph=630aad457d" style="width:100%;border-radius:10px" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Ziele -->
+    <section class="block" id="ziele">
+      <h2>Ziele</h2>
+      <div class="two-col">
+        <div>
+          <ul>
+            <li><strong>Mitglieder:</strong> Neue Member gewinnen und Präsenz erweitern.</li>
+            <li><strong>Spielspaß:</strong> Den Leuten auf Majestic wieder Spaß bieten.</li>
+            <li><strong>Turf:</strong> Aktiv turfen mit voller Besetzung.</li>
+            <li><strong>Crime Aktivitäten:</strong> Bank-/Ladenräube, AoT, Raids, Verträge etc.</li>
+            <li><strong>Events:</strong> MCL, Ranglisten & Ghetto-Events.</li>
+          </ul>
+        </div>
+        <div class="card muted">
+          <p style="margin-bottom:8px"><strong></strong></p>
+          <!-- SVG placeholders (from original) as embedded icons -->
+          <img alt="Bild C" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000026-e6991e6993/Bild_2025-03-16_213354536.png?ph=630aad457d" style="width:100%;border-radius:8px" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Kleidung -->
+    <section class="block" id="kleidung">
+      <h2>Kleidung</h2>
+      <div class="two-col">
+        <div>
+          <p><strong>Pflicht:</strong> <span style="color:var(--pink)">Pinkes/Rosa Oberteil</span> + Schwarze Hose.</p>
+          <p class="muted">Diese Farbkombi sorgt für Erkennbarkeit und Style.</p>
+        </div>
+        <div class="card">
+          <img alt="Kleidung" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000006-8806388065/Bild_2025-03-14_135029942.png?ph=630aad457d" style="width:100%;border-radius:8px" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Fahrzeuge / Fahrzeugfarbe -->
+    <section class="block" id="fahrzeuge">
+      <h2>Fahrzeuge & Farbe</h2>
+      <div class="two-col">
+        <div>
+          <p class="muted">Fahrzeugfarbe: siehe Bilder</p>
+        </div>
+        <div class="card">
+          <img alt="Fahrzeugvorschau" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000012-d7259d725b/Bild_2025-03-14_135731647.png?ph=630aad457d" style="width:100%;border-radius:8px" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Leaderschaft -->
+    <section class="block" id="leaders">
+      <h2>Leaderschaft</h2>
+      <div class="two-col">
+        <div>
+          <p><strong>Leader:</strong> Chopo BossButcher</p>
+          <p><strong>Vize:</strong> Kitty Kat, Rosella OnFroy</p>
+          <p class="muted">Weitere Unterstützung & Rollen sind im Rangsystem beschrieben.</p>
+        </div>
+        <div class="card">
+          <img alt="Leaderschaft" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000016-3651f36521/image.png?ph=630aad457d" style="width:100%;border-radius:8px" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Rangsystem -->
+    <section class="block" id="rangsystem">
+      <h2>Rangsystem</h2>
+      <div class="card">
+        <ul>
+          <li>Leader</li>
+          <li>Leaderin</li>
+          <li>Vize</li>
+          <li>Manager</li>
+          <li>Trust Member</li>
+          <li>Member</li>
+          <li>AFK</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Anwesen, Büros, Lager -->
+    <section class="block" id="infos">
+      <h2>Anwesen & Standorte</h2>
+      <div class="two-col">
+        <div>
+          <p><strong>Anwesen:</strong> Caesars Place</p>
+          <p><strong>Büro 1:</strong> Pillbox Hill, Power St.</p>
+          <p><strong>Lager #8:</strong> Elysian Island, Plaice Pl.</p>
+        </div>
+        <div class="gallery">
+          <img alt="Anwesen 1" src="https://cdn.discordapp.com/attachments/1436774304980402268/1438357773019648050/image.png?ex=69169690&is=69154510&hm=85e59336965a6cb172bac80b337dd981d8ef80973dad6f140959b3e6d01018fd&" />
+          <img alt="Location" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000022-422de422e1/Bild_2025-03-14_182359620.png?ph=630aad457d" />
+          <img alt="Snapshot" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000024-52e2952e2b/Bild_2025-03-15_004224490.png?ph=630aad457d" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery & weitere Bilder -->
+    <section class="block" aria-label="Bilder">
+      <h2>Bilder</h2>
+      <div class="gallery">
+        <!-- mehrere Bilder, aus der hochgeladenen Datei übernommen -->
+        <img alt="Bild A" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000004-96c5996c5b/Bild_2025-03-14_132345393.png?ph=630aad457d" />
+        <img alt="Bild B" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000010-5aead5aeaf/1.png?ph=630aad457d" />
+        <img alt="Bild C" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000026-e6991e6993/Bild_2025-03-16_213354536.png?ph=630aad457d" />
+        <img alt="Bild D" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000012-d7259d725b/Bild_2025-03-14_135731647.png?ph=630aad457d" />
+        <img alt="Bild E" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000008-03a0203a04/2.png?ph=630aad457d" />
+        <img alt="Bild F" src="https://630aad457d.cbaul-cdnwnd.com/b705950a7d6d1fc99c2fa9de1640aafe/200000022-422de422e1/Bild_2025-03-14_182359620.png?ph=630aad457d" />
+      </div>
+    </section>
+
+    <!-- Schlußwort -->
+    <section class="block" id="schlusswort">
+      <h2>Schlußwort</h2>
+      <div class="card">
+        <p><em>Liebes Majestic Admin Team — wir bedanken uns herzlich, dass Sie sich unsere Clan-Bewerbung durchgelesen haben. Die Mindestanzahl an Mitgliedern ist meist ab ca. 18–19 Uhr erreicht; am Wochenende oft früher.</em></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Alle Texte & Bilder: aus deiner hochgeladenen Datei übernommen. :contentReference[oaicite:1]{index=1}</p>
+      <p class="muted">Wenn du willst, exportiere ich dir diese Seite als ZIP / passe Farben, Abstände, oder einzelne Texte an.</p>
+    </footer>
+  </div>
+
+  <script>
+    // Smooth scroll for anchors
+    document.querySelectorAll('a[href^="#"]').forEach(el=>{
+      el.addEventListener('click', e=>{
+        e.preventDefault();
+        const t = document.querySelector(el.getAttribute('href'));
+        if(t) t.scrollIntoView({behavior:'smooth', block:'start'});
+      });
+    });
+  </script>
+</body>
+</html>
